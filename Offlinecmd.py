@@ -8,7 +8,7 @@ import wmi
 from datetime import datetime
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>vosk model<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-modelUS = Model(r"C:\Users\Groot\Desktop\Project\Collection\hari\VoiceAssisstantFYP-master\vosk-model-small-en-us-0.15")
+modelUS = Model(r"vosk-model-small-en-us-0.15")
 
 recognizer = KaldiRecognizer(modelUS, 16000)
 
